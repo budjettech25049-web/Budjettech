@@ -650,7 +650,56 @@ h1{
 
   textarea.form-control {
     height: 180px;
+    resize: vertical;
   }
+
+.container {
+    background-color: #3a3a3a;
+    width: 500px;
+    padding: 30px;
+    border-radius: 12px;
+    margin: 40px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+.container label {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    margin: 15px 0 8px;
+}
+  
+.form-control {
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+    background: white;
+    color: black;
+    border: 2px solid #009dff;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+  .form-control::placeholder {
+    color: #888;
+}
+
+button {
+    display: block;
+    margin: 25px auto 0;
+    background: #009dff;
+    color: white;
+    border: none;
+    padding: 15px 35px;
+    font-size: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0083d4;
+}
   
   .TextPosFix {
     position: relative;
