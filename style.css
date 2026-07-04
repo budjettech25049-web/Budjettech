@@ -29,8 +29,8 @@ h1 {
   color: rgb(255, 255, 255);
   font-size: 5rem;
   background-image: linear-gradient(90deg, rgb(254, 99, 244), rgb(77, 221, 249));
-  -webkit-background-clip: text;
-  background-clip: text;
+  -webkit-background-clip: ;
+  background-clip: ;
   color: transparent;
 }
 
@@ -42,7 +42,7 @@ nav ul {
 }
 
 nav ul li a {
-  text-decoration: none;
+  -decoration: none;
   color: var(--third-color);
   font-size: 1.5rem;
 }
@@ -142,9 +142,9 @@ section {
   background-position: 140% top;
 }
 
-.homebody4 .TextPosFix {
+.homebody4 .PosFix {
   margin-left: 30vh;
-  text-align: center;
+  -align: center;
 }
 
 .homebody4 .sponsorbutton{
@@ -176,7 +176,7 @@ section {
     height: 100vh;
 }
   
-.TextPosFix {
+.PosFix {
   position: relative;
   top: 13rem;
   width:50%;
@@ -210,7 +210,7 @@ ul {
 .footer-col h4 {
   font-size: 18px;
   color: #ffffff;
-  text-transform: capitalize;
+  -transform: capitalize;
   margin-bottom: 35px;
   font-weight: 500;
   position: relative;
@@ -233,9 +233,9 @@ ul {
 
 .footer-col ul li a {
   font-size: 16px;
-  text-transform: capitalize;
+  -transform: capitalize;
   color: #ffffff;
-  text-decoration: none;
+  -decoration: none;
   font-weight: 300;
   color: #bbbbbb;
   display: block;
@@ -253,7 +253,7 @@ ul {
   width: 40px;
   background-color: rgba(255, 255, 255, 0.2);
   margin: 0 10px 10px 0;
-  text-align: center;
+  -align: center;
   line-height: 40px;
   border-radius: 50%;
   color: #ffffff;
@@ -297,7 +297,7 @@ ul {
   height: 48px;
   max-width: 100%;
   box-sizing: border-box;
-  text-decoration: none;
+  -decoration: none;
   font-weight: 500;
   border-radius: 50em;
   padding-top:10px;
@@ -328,8 +328,8 @@ ul {
   overflow: visible;
   padding: 2px 24px;
   position: relative;
-  text-align: center;
-  text-transform: none;
+  -align: center;
+  -transform: none;
   transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
   user-select: none;
   -webkit-user-select: none;
@@ -355,7 +355,7 @@ ul {
 }
 
 .sponsorbutton:link { 
-    text-decoration: none; 
+    -decoration: none; 
   } 
   .sponsorbutton:visited { 
     text-decoration: none; 
