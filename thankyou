@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Thank You</title>
+</head>
+<body style="background:#24262b;color:white;text-align:center;">
+    <h1>Thank You!</h1>
+    <p>Your message has been sent successfully.</p>
+    <a href="sponsor.html">Return to Sponsor Page</a>
+</body>
+</html>
