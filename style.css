@@ -621,16 +621,6 @@ ul {
     resize: vertical;
   }
 
-
-/* Labels */
-.container label {
-    display: block;
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-    margin-top: 20px;
-    margin-bottom: 8px;
-}
 .contact-container {
     background-color: #3a3a3a;
     width: 500px;
@@ -652,6 +642,14 @@ ul {
     font-weight: bold;
     margin-top: 15px;
     margin-bottom: 8px;
+}
+  
+.container label {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    margin: 15px 0 8px;
 }
   
 .form-control {
