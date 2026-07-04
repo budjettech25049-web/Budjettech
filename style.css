@@ -640,6 +640,18 @@ h1{
     background-position: center;
   }
 
+  .form-control {
+    width: 400px;
+    height: 45px;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 8px;
+  }
+
+  textarea.form-control {
+    height: 180px;
+  }
+  
   .TextPosFix {
     position: relative;
     top: 30rem;
