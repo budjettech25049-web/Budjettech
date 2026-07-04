@@ -649,7 +649,7 @@ h1{
   }
 
   textarea.form-control {
-    height: 180px;
+    height: 300px;
     resize: vertical;
   }
 
@@ -661,7 +661,21 @@ h1{
     margin: 40px auto;
     box-shadow: 0 0 10px rgba(0,0,0,0.4);
 }
-
+  
+.contact-container form {
+    display: flex;
+    flex-direction: column;
+}
+  
+.contact-container label {
+    display: block;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+  
 .container label {
     color: white;
     font-size: 20px;
@@ -672,12 +686,11 @@ h1{
   
 .form-control {
     width: 100%;
-    padding: 14px;
+    padding: 12px;
     font-size: 16px;
-    background: white;
-    color: black;
-    border: 2px solid #009dff;
+    border: 2px solid #00a8ff;
     border-radius: 8px;
+    background: white;
     box-sizing: border-box;
 }
 
@@ -688,6 +701,7 @@ h1{
 button {
     display: block;
     margin: 25px auto 0;
+    width: 180px;
     background: #009dff;
     color: white;
     border: none;
