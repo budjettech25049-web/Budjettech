@@ -682,7 +682,13 @@ button {
 button:hover {
     background: #0083d4;
 }
-  
+
+.contact-section {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    justify-content: center;
+}
 
 @media (min-width: 320px) and (max-width: 480px) {
 h1{
