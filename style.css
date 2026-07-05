@@ -168,6 +168,14 @@ section {
     height: 100vh;
 }
 
+.contactbg {
+    background-image: url("images/contactbg.jpg");
+    background-size: cover;
+    color: var(--third-color);
+  
+    height: 100vh;
+}
+
 .sponsorbg {
     background-image: url("images/wallet.jpg");
     background-size: cover;
