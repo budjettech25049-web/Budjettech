@@ -169,7 +169,7 @@ section {
 }
 
 .contactbg {
-    background-image: url("images/contactbg.jpg");
+    background-image: url("images/contact.jpg");
     background-size: cover;
     color: var(--third-color);
   
