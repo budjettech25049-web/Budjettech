@@ -46,7 +46,7 @@ nav ul li a {
   color: var(--third-color);
   font-size: 1.5rem;
 }
-
+ 
 nav ul li a::after {
   content: "";
   display: block;
