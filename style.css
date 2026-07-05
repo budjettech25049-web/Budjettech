@@ -142,7 +142,7 @@ section {
   background-position: 140% top;
 }
 
-.homebody4 .PosFix {
+.homebody4 .TextPosFix {
   margin-left: 30vh;
   text-align: center;
 }
@@ -176,7 +176,7 @@ section {
     height: 100vh;
 }
   
-.PosFix {
+.TextPosFix {
   position: relative;
   top: 13rem;
   width:50%;
