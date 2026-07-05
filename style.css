@@ -23,6 +23,8 @@
 /* nav bar css */
 nav {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 h1 {
@@ -40,6 +42,7 @@ nav ul {
   list-style: none;
   justify-content: space-around;
   align-items: center;
+  width: 100%;
 }
 
 nav ul li a {
