@@ -741,7 +741,7 @@ button:hover {
   .homebody{
     background-color: black;
   height: 80vh;
-  width: 300%;
+  width: 100%;
   background-image: url("images/driving.png");
   background-repeat: no-repeat;
   background-size:contain;
